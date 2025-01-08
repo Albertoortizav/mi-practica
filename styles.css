@@ -1,0 +1,18 @@
+body{
+    background-color: black;
+}
+
+div{
+    color:white;
+}
+div{
+    padding-left:100px;
+    padding-right: 100px;
+}
+
+p a{
+  color:green;
+ font-size: larger;
+ font-weight: 700;
+}
+
