@@ -1,0 +1,26 @@
+.emoji{
+    width: 300px;
+    margin:0 auto;
+    
+}
+div > p {
+    text-align: center;
+    padding-top:50px;
+    height:90px;
+    width:400px;
+    background-color: grey;
+   border: 5px solid blue;
+}
+
+.emoji p::before{
+    content:":)";
+    color:aqua;
+
+}
+
+.emoji p::after{
+    content:"(:";
+    color:aqua;
+
+}
+
