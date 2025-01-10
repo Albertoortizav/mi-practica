@@ -1,0 +1,38 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+.box{
+    width:100px;
+    height:100px;
+    background-color: red;
+    color:white;
+    margin:10px;
+    font-size:30px;
+    text-align: center;
+}
+
+.relative{
+    position: relative;
+    top:50px;
+    left:100px;
+}
+
+.fixed{
+    position: fixed;
+    top:0;
+    right:0;
+}
+.absolute{
+    position: absolute;
+    /* funciona mejor con un elemento padre antes de este */
+}
+
+.sticky{
+    border: 5px solid blue;
+    position: sticky;
+     top:0;
+     left:0;
+}
