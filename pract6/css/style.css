@@ -1,0 +1,56 @@
+/* animaciones */
+button{
+    background-color: aquamarine;
+    transition:  300ms ease-in;
+}
+button:hover{
+    background-color: gray;
+    transform:scale(1.6);
+    color:aqua;
+    
+}
+
+.circle{
+    position: relative;
+    border-radius: 100%;
+    background-color: aqua;
+    width: 50px;
+    height:50px;
+    transition: 300ms ease-in-out;
+    animation: circleMove;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    top:200px;
+}
+
+.circle:hover{
+    transform: scale(0.6);
+}
+
+@keyframes circleMove  {
+0%{
+    top:200px;
+    left:0;
+    border-radius: 0%;
+}
+25%{
+    
+    border-radius: 100%;
+}
+50%{
+ top:200px;
+ left:200px;
+ background-color: aquamarine;
+ border-radius: 0%;
+}
+75%{
+   
+    border-radius: 100%;
+}
+100%{
+    top:200px;
+    left:0;
+    border-radius: 0%;
+}
+    
+}
