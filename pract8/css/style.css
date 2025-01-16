@@ -1,0 +1,126 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.articuloNoResponsive{
+    min-width: 200px;
+    width: 400px;
+    min-height:400px;
+    padding:20px;
+    background-color: red;
+    color:wheat;
+    overflow-y: auto;
+}
+
+.articuloResponsive{
+
+    width: 100%;
+    margin-top: 40px;
+    height: 400px;
+    padding:20px;
+    background-color: blue;
+    color:wheat;
+}
+
+.responsiveChild1{
+    width:15%;
+    border: 1px solid black;
+    height: 70%;
+    display: inline-block;
+}
+
+.responsiveChild2{
+    width:66%;
+    border: 1px solid black;
+    height: 70%;
+    display: inline-block;
+    margin: 0 10px;
+}
+.responsiveChild3{
+    width:15%;
+    border: 1px solid black;
+    height: 70%;
+    display: inline-block;
+}
+
+
+@media screen and (max-width:600px) {
+    .articuloNoResponsive{
+        background-color: green;
+    }
+
+    .responsiveChild1, .responsiveChild2, .responsiveChild3{
+        width: 100%;
+    }
+    .visibleMobile{
+        display:block;
+     }
+     .visibleTablet{
+        display:none;
+     }
+     .visibleDesktop{
+        display:none;
+     }
+}
+/* para celulares pequeños */
+@media screen and (min-width:600px) {
+    .articuloNoResponsive{
+        background-color: blue;
+    }
+     .visibleMobile{
+        display:block;
+     }
+     .visibleTablet{
+        display:none;
+     }
+     .visibleDesktop{
+        display:none;
+     }
+}
+/* para tables horizontales */
+@media screen and (min-width:768px) {
+    .articuloResponsive{
+        background-color: green;
+    }
+    .visibleMobile{
+        display:none;
+     }
+     .visibleTablet{
+        display:block;
+     }
+     .visibleDesktop{
+        display:none;
+     }
+}
+/* para laptops o monitores pequeños*/
+@media  screen and (min-width:992px) {
+    .articuloResponsive{
+        background-color: red;
+    }
+    .visibleMobile{
+        display:none;
+     }
+     .visibleTablet{
+        display:none;
+     }
+     .visibleDesktop{
+        display:block;
+     }
+}
+/* para laptops o monitores grandes */
+@media screen and (min-width:1440px){
+   .articuloResponsive{
+    background-color: brown;
+   }
+   .visibleMobile{
+    display:none;
+ }
+ .visibleTablet{
+    display:none;
+ }
+ .visibleDesktop{
+    display:block;
+ }
+}
