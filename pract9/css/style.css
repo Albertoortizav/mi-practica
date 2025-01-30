@@ -1,0 +1,128 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+display: flex;
+flex-direction: column;
+align-items: center;
+border:2px solid blue;
+}
+
+.container1{
+    border: 20px solid red;
+    width:40%;
+}
+
+.container2{
+    border: 20px solid red;
+    width:40%;
+    margin: 5%;
+}
+
+
+p{
+    text-align: center;
+}
+.listBox1{
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.listBox2{
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+}
+.listBox3{
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: flex-end;
+}
+.listBox4{
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+}
+.listBox5{
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.listBox6{
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+.listBox7{
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-start;
+}
+.listBox8{
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    align-items:center;
+}
+.listBox9{
+    border: 2px solid green;
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction:column;
+    align-items:flex-end;
+}
+.listBox10{
+    border: 2px solid green;
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+   justify-content: space-between;  
+}
+.listBox11{
+    border: 2px solid green;
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;   
+}
+.listBox12{
+    border: 2px solid green;
+    width: auto;
+    height: 700px;
+    display: flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-evenly;   
+}
+.box{
+    border:1px solid blue ;
+    background-color: aqua;
+    text-align: center;
+    width: 70px;
+    height:70px;
+}
