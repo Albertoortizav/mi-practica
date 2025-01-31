@@ -1,0 +1,21 @@
+.navbar{
+    width: 100%;
+   @include filaENtradaVertical;
+    align-items: center;
+    nav{
+        ul{
+            display: flex;
+            align-items: center;
+            justify-content: flex-end;
+            gap:10px;
+            li{
+                list-style: none;
+                padding: $padding;
+                cursor: pointer;
+            }
+            li:hover{
+                text-decoration: underline;
+            }
+        }
+    }
+}
