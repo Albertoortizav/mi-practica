@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: green;
+}
+
+.container {
+  width: auto;
+  height: auto;
+  text-align: center;
+}
+.container .caja {
+  background-color: black;
+  width: 35%;
+  display: inline-block;
+  color: white;
+  text-align: center;
+  margin: 10px auto;
+}
+.container .caja img {
+  width: 60%;
+  height: 60%;
+  margin: 10px auto;
+}/*# sourceMappingURL=main.css.map */
