@@ -1,0 +1,53 @@
+@import "var";
+@import "mixin";
+*{
+padding:0;
+margin:0;
+box-sizing: border-box;
+}
+body{
+    background-color:green;
+}
+
+.cuadro{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+.tarjeta{
+    background-color: $negro;
+    border:2px solid $azul;
+    width:10%;
+    height: auto;
+    display:inline-block;
+    text-align: center;
+    padding:20px 5px;
+    img{
+        width:100px;
+        height:100px;
+    } 
+    p, h5{
+    @include texto;
+    }
+    .circle{
+        background-color: aqua;
+        border-radius: 100%;
+        width:20px;
+        height: 20px;
+        position:absolute;
+        top:0px;
+        left:0px;
+        animation: circle;
+        animation-delay: 3s;
+        animation-duration: 3s;
+        animation-iteration-count: infinite;
+    }
+}
+}
+
+@keyframes circle{
+    0%{top:0%; left:0%;};
+    25%{top:50%; left:0%; background-color:red};
+    50%{top:50%; left:90%; background-color:blue};
+    75%{top:0%; left:90%; background-color:green};
+
+}
